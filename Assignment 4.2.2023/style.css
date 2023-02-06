@@ -1,0 +1,101 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+height: 100%;
+width: 100%;
+  background-color:white;
+}
+
+nav{
+ 
+  height: 15vh;
+  display:flex;
+}
+.logo{
+  display: flex;
+}
+.logo img{
+  height: 100px;
+  width:200px;
+}
+.menu{
+  margin-left:1%;
+  margin-right: 8%;
+}
+.menu ul {
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+ color:black;
+}
+.menu ul li{
+  list-style: none;
+  padding:20px 15px;
+  
+ 
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover{
+  background-color: violet;
+  color: black;
+}
+button{
+  background-color: blueviolet;
+  color:white;
+  border: 1px solid darkviolet;
+  font-style: 18px;
+  font-weight: 400;
+  border-radius: 10px;
+  padding:10px;
+ }
+ 
+ button:hover{
+   cursor: pointer;
+   background-color: hotpink;
+   border-color:pink;
+ }
+ 
+ .btn{
+   padding-top: 20px;
+   margin-left:10%;
+ }
+ 
+ main{
+   height: 85vh;
+   padding-top: 20%;
+   padding-left: 5%;
+   display:flex;
+   align-content: center;
+ }
+ .left{
+   width: 60%;
+ }
+ .left h1{
+   
+   width:40%;
+   font-weight: 900;
+ }
+ .left h1 span{
+   color: blueviolet;
+}
+.left p{
+  font-size: 15px;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+.right{
+  
+  width: 40%;
+}
+.right img{
+  width:300px;
+  height: 300px;
+}
