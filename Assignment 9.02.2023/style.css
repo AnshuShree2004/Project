@@ -1,0 +1,82 @@
+body{
+  height:100vh;
+  background-color: aquamarine;
+}
+h1{
+  font-size: 60px;
+  text-align: center;
+}
+.monitor{
+  font-size: 40px;
+  display: none;
+  text-align: center;
+}
+.laptop{
+  font-size: 40px;
+  display: none;
+  text-align: center;
+}
+.tablet{
+  font-size: 40px;
+  display: none;
+  text-align: center;
+}
+.mobile{  
+  font-size: 40px;
+  display: none;
+  text-align: center;
+  }
+  @media  screen and (max-width: 1440px;) {
+    body{
+    background-color: darkgreen;
+  }
+  .monitor{
+    display: block;
+}
+ }
+ 
+ media  screen and (max-width: 1024px;) {
+    body{
+    background-color: saddlebrown;
+  }
+  .monitor{
+    display: none;
+}
+.laptop{
+  display: block;
+}
+ }
+ 
+ media  screen and (max-width: 768px;) {
+    body{
+    background-color:skyblue;
+  }
+  .monitor{
+    display: none;
+}
+.laptop{
+  display: none;
+}
+.tablet{
+  display: block;
+}
+ }
+ 
+ media  screen and (max-width: 1440px;) {
+    body{
+    background-color: darkgreen;
+  }
+  .monitor{
+    display: none;
+}
+.laptop{
+  display: none;
+}
+.tablet{
+  display: none;
+}
+.mobile{
+  display: block;
+}
+ }
+  
