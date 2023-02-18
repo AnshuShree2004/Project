@@ -1,0 +1,112 @@
+/*CSS reset*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #f0f4f5;
+  height:100vh;
+  width:100vw;
+  font-family: 'Roboto', sans-serif;
+  }
+head{
+   height: 10vh;
+}
+nav{
+  display: flex;
+  align-items:space-around;
+  justify:space-around;
+}
+.left-logo{
+  margin-top: 20px;
+  margin-left:10%;
+  margin-right: 40%;
+}
+.left-logo img{
+  height: 25px;
+}
+.right-menu ul{
+  margin-top:20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap:30px;
+  font-size: 15px;
+  font-weight: 600;
+}
+li{
+  list-style: none;
+}
+a{
+  color:black;
+  text-decoration: none;
+}
+.right-menu ul li a:hover{
+  color: red;
+  background-color: darkgray;
+}
+/*main section*/
+
+main{
+  height: 90vh;
+  margin: 15% 37%;
+}
+main section{
+  
+  height:300px;
+  width: 250px;
+  border: 2px solid black;
+  box-shadow: 0 0 10px black;
+  border-radius: 10px;
+}
+
+main section h2{
+  margin:15px 0;
+  text-align: center;
+  color:green;
+  font-size: 25px;
+}
+.info{
+  margin-bottom: 10px;
+  
+}
+.info div{
+  margin-bottom: 10px;
+}
+.info label{
+ 
+  font-weight: 600;
+  margin-left: 15%;
+  border-radius: 7px;
+}
+.info input{
+  border-color: transparent;
+  color: grey;
+  background-color: #fff;
+  margin-left: 15%;
+  border-radius: 7px;
+}
+textarea{
+  padding: 5px 10px;
+  border-color: transparent;
+ border-radius: 7px;
+  margin-left: 15%;
+}
+.btn{
+  text-align: center;
+}
+button{
+  color: white;
+  border-color: transparent;
+  background: #20BC7E;
+border-radius: 7px;
+ margin:5% 30px;
+  padding:7px 50px;
+  font-weight: 600;
+}
+button:hover{
+  background-color: floralwhite;
+  color: green;
+  border:1px solid  black;
+}
