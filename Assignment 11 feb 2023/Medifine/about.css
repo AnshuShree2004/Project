@@ -1,0 +1,89 @@
+/*CSS reset*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: #f0f4f5;
+  height:100vh;
+  width:100vw;
+  font-family: 'Roboto', sans-serif;
+  }
+head{
+   height: 10vh;
+}
+nav{
+  display: flex;
+  align-items:space-around;
+  justify:space-around;
+}
+.left-logo{
+  margin-top: 20px;
+  margin-left:10%;
+  margin-right: 40%;
+}
+.left-logo img{
+  height: 25px;
+}
+.right-menu ul{
+  margin-top:20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap:30px;
+  font-size: 15px;
+  font-weight: 600;
+}
+li{
+  list-style: none;
+}
+a{
+  color:black;
+  text-decoration: none;
+}
+.right-menu ul li a:hover{
+  color: red;
+  background-color: darkgray;
+}
+
+
+main{
+  height: 90vh;
+  }
+.main{
+  margin:18%;
+}
+.main div h1{
+  font-size: 33px;
+  color:#20BC7E;
+  margin: 15px 12%;
+}
+.main div p{
+  text-align: center;
+  font-weight: 500;
+}
+.box{
+  margin: 45px 20px;
+}
+.box ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.box ul div{
+  height: 80px;
+  width:120px;
+  border: 2px solid darkgrey;
+box-shadow: 0 0 10px #888888;
+border-radius: 10px;
+}
+.box ul div h2{
+  margin-top: 10px;
+  text-align: center;
+  color:#20BC7E;
+}
+.box ul div p{
+  font-weight: 600;
+  color: black;
+}
