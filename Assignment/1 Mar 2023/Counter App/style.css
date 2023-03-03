@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  padding: 25%;
+  background-image:url("/Counter App/pexels-adi-perets-5103756.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section{
+  height: 400px;
+  width: 500px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px yellow;
+}
+h1{ text-align: center;
+  font-size: 60px;
+  font-weight:900;
+  color: purple;
+}
+div{
+  
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+button{
+  color:white;
+  padding: 16px;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #6666ff;
+  border: 2px solid black;
+}
+span{
+  padding-top: 15px;
+  text-align: center;
+  font-size: 25px;
+  height: 50px;
+  width: 50px;
+  background-color: #6666ff;
+}
+.reset{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
