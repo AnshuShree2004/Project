@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="/Validate password /style.css">
+</head>
+
+<body>
+<form id="loginForm">
+  <label for="email">Email:</label>
+  <input type="text" id="email" name="email"><br>
+  
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password"><br><br>
+  
+  <input type="submit" value="Submit" id="submitBtn">
+</form>
+
+<p id="message"></p>
+
+</body>
+<script>
+const loginForm = document.getElementById('loginForm');
+const submitBtn = document.getElementById('submitBtn');
+const message = document.getElementById('message');
+
+submitBtn.addEventListener('click', function(event) {
+  event.preventDefault(); // prevent form submission
+  
+  const email = document.getElementById('email').value;
+  const password = document.getElementById('password').value;
+  
+  if (!email.includes('@') || password.length < 8) {
+    message.style.color = 'red';
+    message.innerHTML = 'Invalid email or password!';
+  } else {
+    message.style.color = 'green';
+    message.innerHTML = 'Valid email and password!';
+    loginForm.submit(); // submit form if input is valid
+  }
+});
+</script>
+
+
+</html>
