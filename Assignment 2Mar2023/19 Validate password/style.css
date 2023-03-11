@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  height:100vh;
+  background-color: #99ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ }
+
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 25px;
+  height: 300px;
+  width: 300px;
+  border: 2px solid red;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+input{
+  background-color: #fff;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+#submitBtn{
+  padding: 10px;
+  color:Black;
+  font-size: 17px;
+  font-weight: 600;
+  background-color: pink;
+}
+#message{
+  display: flex;
+  align-items: center;
+ justify-items: center;
+}
