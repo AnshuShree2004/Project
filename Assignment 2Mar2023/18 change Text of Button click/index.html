@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project 18</title>
+  <style>
+    body{
+  background-color: #6666ff;
+}
+div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h2{
+  color:white;
+  font-size: 60px;
+}
+button{
+  padding: 16px;
+  background-color: #99ffff;
+}
+  
+
+  </style>
+</head>
+
+<body>
+<div>
+  <h2>The most affordable learning platform</h2>
+  <button onclick="toggle()">Click Me</button>
+ <script>
+   function toggle(){
+     const head = document.getElementsByTagName('h2')
+     if(head.textContent="The most affordable learning platform"){
+       head[0].textContent ="Pw skills";
+     }
+     else{
+       head.textContent="The most affordable learning platform"
+     }
+   }
+ </script>
+</div>
+</body>
+
+
+</html>
