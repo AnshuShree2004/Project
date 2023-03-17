@@ -1,10 +1,12 @@
-let regxPattern=/^https:\/\/www\.linkedin\.com\/in\/[a-zA-Z0-9_-]+[a-zA-Z0-9]$ /igm
-let userIdUrl="https://www.linkedin.com/in/anshu-shree7";
+const urlReg=/^https?:\/\/www\.linkedin\.com\/in\/[\w\-]+[\w\d]$/gim
 
-let profileId = regxPattern.test(userIdUrl)
-if(profileId.length>=5 && profileId.length<=30){
-  console.log("It is valid")
+function isValidLinkedinUrl(url){
+  const urlCheck=urlReg.test(url)
+  if(urlCheck>=5 && urlCheck<=30){
+    console.log(`The Linkedin url ${url} is valid`)
+  }else{
+    console.log(`The Linkedin url ${url} is not valid`)
+  }
 }
-else{
-  console.log("It is not valid ")
-}
+
+isValidLinkedinUrl("https://www.linkedin.com/in/anshu-shree-0262")
