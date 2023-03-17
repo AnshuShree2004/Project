@@ -1,7 +1,10 @@
-
-function reverseString(str) {
-  let reversedString=str.split('').reverse().join('')
-console.log(reversedString);
+function reverseString(str){
+Return str.split(""). reverse().Join("");
 }
-let input="Hey girl,you are beautiful!"
-setTimeout(reverseString(input),2000)
+function reverseStringWithDelay(str){
+setTimeout(function(){
+var reversedString=reverseString(str)
+Console.log(reversedString)
+},2000)
+}
+reverseStringWithDelay("Hello")
