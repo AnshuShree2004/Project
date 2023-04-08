@@ -1,9 +1,7 @@
-const generate = document.getElementById('input')
-function generateRandom(){
-    generate.innerText =Math.floor( Math.random()*16)
-    generate.style.backgroundColor= 'red'; 
-    generate.style.fontSize='26px';
-    generate.style.height ='50px'
-    
-    generate.style.textAlign = 'center'
-}
+
+let inputBox = document.getElementById('input-box') 
+let display = document.getElementById('display')
+
+inputBox.addEventListener('keypress', function(e){
+    display.innerText ="you have Pressed " + e.key
+})
