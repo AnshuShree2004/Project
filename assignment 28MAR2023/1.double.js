@@ -1,8 +1,13 @@
-let double = arr.map((ele) => {
-    return ele*2
-})
-function returnDouble(arr,callback){
-    callback(arr)
+function doubleArray(arr,callback){
+    const doubleArr = arr.map((num) =>{
+        return callback(num)
+    })
+    return doubleArr
 }
-let arr = [1,2,3,4,5]
-console.log(returnDouble(arr,double))
+
+const originalArray = [1,2,3,4]
+function callback(num){
+    return num*2
+}
+const double = doubleArray(originalArray,callback)
+console.log(double)

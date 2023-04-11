@@ -1,6 +1,7 @@
-function greeting(name){
-    return new Promise((resolve,reject) => 
-    resolve(`hello,${name} !`)
-    )
+function greet(name){
+    return new Promise((resolve) => {
+    const greeting = `Hello , ${name}!`
+    resolve(greeting)
+})
 }
-greeting("anshu")
+greet("anshu").then((message) => console.log(message))

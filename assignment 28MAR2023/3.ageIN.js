@@ -1,12 +1,14 @@
-function logresult(person){
-    console.log("the person's fullname is",fullname,"and their age in",ageInDays)
+ const personObject = {
+    firstName : 'Anshu' ,
+    lastName : 'Shree',
+     age : 20,
 }
-function ageInDay(person,callback){
-    let fullname = person.first+person.last;
-    let ageInDays = person.year*365
-    return logresult(person)
+function ageInDays(personObject,callback){
+    const fullname =` ${personObject.firstName} ${personObject.lastName}`;
+    const ageInDays = personObject.age*365;
+  return  callback(fullname,ageInDays)
 }
-let person ={
-    first : person.first ,last : person.last , year : person.year,
+
+function logresult(fullName , ageInDays){
+    console.log(`the person's full name is ${fullName} and their age in days is ${ageInDays}`)
 }
-console.log(ageInDay(person,logresult))
