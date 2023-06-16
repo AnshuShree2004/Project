@@ -1,0 +1,23 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "this is about how to create package.json file and about using fs module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fs",
+    "package",
+    "package.json",
+    "json",
+    "module",
+    "read",
+    "write",
+    "append",
+    "close",
+    "delete"
+  ],
+  "author": "Anshu Shree",
+  "license": "ISC"
+}

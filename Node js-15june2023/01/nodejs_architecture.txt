@@ -1,0 +1,3 @@
+Node.js is a powerful JavaScript runtime environment that allows developers to execute server-side and networking applications. It follows a single-threaded, event-driven architecture known as the event loop, which enables asynchronous and non-blocking I/O operations.                                               Event Loop: At the core of Node.js architecture is the event loop, which manages all the asynchronous operations. It continuously checks for events, such as I/O operations or timers, in a non-blocking manner. When an event occurs, it triggers the associated callback or handler. The event loop ensures that the application remains responsive even while waiting for I/O operations to complete.
+
+
